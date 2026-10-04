@@ -1,8 +1,13 @@
 $schema: https://api.gitbook.com/gitbook-docs.yaml
-version: 1
 site:
   title: opentrustregistry.org
   structure:
+    - type: section-group
+      key: section-group-1
+      title: Principles
+      icon: book-open-lines
+      draft: true
+      children: []
     - type: space
       key: space-docs
       title: Documentation
