@@ -1,0 +1,20 @@
+{
+	"folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "../tswg-trust-registry-protocol"
+    },
+    {
+      "path": "../gdc-trust-registries-tf"
+    },
+    {
+      "path": "../trqp-ayra-fastapi"
+    },
+    {
+      "path": "../ayra-trust-registry-resources"
+    }
+  ],
+  "settings": {}
+}
