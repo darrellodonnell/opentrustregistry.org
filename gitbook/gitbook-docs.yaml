@@ -1,12 +1,36 @@
 $schema: https://api.gitbook.com/gitbook-docs.yaml
-version: 1
 site:
   title: opentrustregistry.org
   structure:
-    - type: space
-      key: space-docs
-      title: Documentation
-      path: docs
+    - type: section-group
+      key: section-group-1
+      title: Principles
+      icon: book-open-lines
+      draft: true
+      children: []
+    - type: section
+      key: section-1
+      title: opentrustregistry.org
+      path: opentrustregistry.org
       default: true
-      content:
-        directory: ./
+      children:
+        - type: space
+          key: space-docs
+          title: Documentation
+          path: docs
+          default: true
+          content:
+            directory: ./
+    - type: section
+      key: section-2
+      title: Landing Page
+      path: landing-page
+      children:
+        - type: space
+          key: space-1
+          title: Landing Page
+          path: landing-page
+          default: true
+          draft: true
+          content:
+            directory: ./landing-page

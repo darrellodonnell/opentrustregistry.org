@@ -1,3 +1,4 @@
 # Table of contents
 
-* [swiyu entity authorization bridge](patterns/swiyu-authorization-bridge.md)
+* [Goals](README.md)
+* [swiyu bridge for TRQP and the Ayra TRQP Profile](patterns/swiyu-authorization-bridge.md)
